@@ -5,7 +5,7 @@ services:
         container_name: to-do-list-api
         image: to-do-api
         ports:
-            - "5000:5000"
+            - "8000:8000"
         build: 
             context: .
             dockerfile: Dockerfile
