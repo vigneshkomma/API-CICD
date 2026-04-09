@@ -27,7 +27,7 @@ jobs:
         with:
           images: ${{ secrets.DOCKER_USERNAME }}/to-do-api
           tags: |
-            type=latest
+            type=raw, value=latest          
             type=sha
       #Build and push
       - name: Build and push docker image
