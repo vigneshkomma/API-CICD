@@ -12,7 +12,7 @@ jobs:
     steps:
       #Getting code
       - name: Checkout code
-        uses:actions/checkout@v4
+        uses: actions/checkout@v4
 
       #login into docker hub
       - name: Log into docker
