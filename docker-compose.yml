@@ -1,12 +1,9 @@
-version: '5.1'
+version: '3.8'
 
 services:
     to-do-list-api:
         container_name: to-do-list-api
-        image: to-do-api
+        image: vigneshop/to-do-api:latest
         ports:
             - "8000:8000"
-        build: 
-            context: .
-            dockerfile: Dockerfile
-
+        restart: always
