@@ -15,7 +15,7 @@ def insert(item:str):
     items.append(item)
     return item
 
-@app.get("/items/view")
+@app.get("/items/view")     
 def view():
     return items
 

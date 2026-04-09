@@ -1,0 +1,12 @@
+version: '5.1'
+
+services:
+    to-do-list-api:
+        container_name: to-do-list-api
+        image: to-do-api
+        ports:
+            - "5000:5000"
+        build: 
+            context: .
+            dockerfile: Dockerfile
+
