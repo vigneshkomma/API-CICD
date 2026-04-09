@@ -7,7 +7,7 @@ items = []
 
 @app.get("/")
 async def root():
-    return{"message:":"TO DO LIST API:v1.0"}
+    return{"message:":"TO DO LIST API:v1.1"}
 
 
 @app.post("/items/insert")
