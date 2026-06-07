@@ -11,7 +11,7 @@ app = FastAPI(
 @app.get("/")
 def root():
     return {
-        "message": "URL Health Checker API is running",
+        "message": "URL Health Checker API is running: version:1.0.1",
         "docs": "/docs"
     }
 
